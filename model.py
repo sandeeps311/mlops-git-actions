@@ -18,9 +18,9 @@ def plot_predictions(train_data, train_labels,  test_data, test_labels,  predict
     # Plot the predictions in red (predictions were made on the test data)
     plt.scatter(test_data, predictions, c="r", label="Predictions")
     # Show the legend
-    plt.legend(shadow='True')
+    # plt.legend(shadow='True')
     # Set grids
-    plt.grid(which='major', c='#cccccc', linestyle='--', alpha=0.5)
+    # plt.grid(which='major', c='#cccccc', linestyle='--', alpha=0.5)
     # Some text
     plt.title('Model Results', family='Arial', fontsize=14)
     plt.xlabel('X axis values', family='Arial', fontsize=11)
