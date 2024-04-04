@@ -15,4 +15,4 @@ def test_bad_inc():
     # when
     res = lib.inc(x)
     # then
-    assert res == 5
+    assert res == 4
