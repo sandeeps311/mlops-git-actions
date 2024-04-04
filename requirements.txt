@@ -2,3 +2,4 @@ xgboost
 numpy
 matplotlib
 pytest
+scikit-learn
