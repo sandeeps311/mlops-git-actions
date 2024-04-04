@@ -29,7 +29,8 @@ def plot_predictions(train_data, train_labels,  test_data, test_labels,  predict
     plt.savefig('model_results.png', dpi=120)
 
 
-# Create features
+
+## Create features
 X = np.arange(-100, 100, 4).reshape(-1, 1)
 
 # Create labels
