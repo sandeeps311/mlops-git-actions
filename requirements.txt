@@ -1,4 +1,4 @@
-tensorflow
+xgboost
 numpy
 matplotlib
 pytest
